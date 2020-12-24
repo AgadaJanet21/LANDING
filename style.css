@@ -34,17 +34,22 @@ h4 {
 
 .submit-button {
     font-size: 16px;
-}'
+}
 
+p {
+    color: black;
+    
+}
 p::before  {
     content: '';
-    left: -40px;
+    left: 500px;
     position: absolute;
-    background: green;
+    background:  #686869;
     width: 20px;
-    top: 100%;
+    top: 84%;
     height: 2px;
 }
+
 p::after{
     content: '';
     right: 500px;
@@ -58,16 +63,18 @@ p::after{
 
 .fa {
     font-size: 35px;
+    padding-top: -200px;
     padding-right: 7px;
     position: relative;
-    top: 40px; /* space from top */
+    top: 30px; /* space from top */
     right: 0; /* space from right */ 
+    transition: top 300ms linear;
     
 }
 
 .fa:hover {
     top: 10px;
-    transition: top 200ms linear;
+    
 }
 
 .fa-facebook-square {
@@ -82,23 +89,5 @@ color: rgb(78, 78, 219);
         color: rgb(201, 47, 47);
         }
 
-/* .hedge-text ::before {
-    left: -30px;
-    content: '';
-    position: absolute;
-    top: 50%;
-    height: 2px;
-    background: #686869;
-    width: 20px;
-}
-.hedge-text ::after {
-right: -30px;
-content: '';
-position: absolute;
-top: 50%;
-height: 2px;
-background: #686869;
-width: 20px;
-} */
 
 
