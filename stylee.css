@@ -1,0 +1,6 @@
+p::after{
+    content: "My name is Jane";
+}
+p::before {
+    content: "My name is Jane";
+}

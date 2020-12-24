@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(245, 244, 244);
+    padding-top: 20px;
+    
+}
+.card {
+    text-align: center;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+p {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: rgb(156, 148, 148);
+}
+#span {
+    color:#138dff;
+}
+
+h4 {
+    color: #138dff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.container {
+    background-color: white;
+    padding-bottom: 20px;
+    border: 50px solid  white;
+    
+    
+}
+
+.submit-button {
+    font-size: 16px;
+}'
+
+p::before  {
+    content: '';
+    left: -40px;
+    position: absolute;
+    background: green;
+    width: 20px;
+    top: 100%;
+    height: 2px;
+}
+p::after{
+    content: '';
+    right: 500px;
+    position: absolute;
+    background: #686869;
+    width: 20px;
+    top: 84%;
+    height: 2px;
+}
+
+
+.fa {
+    font-size: 35px;
+    padding-right: 7px;
+    position: relative;
+    top: 40px; /* space from top */
+    right: 0; /* space from right */ 
+    
+}
+
+.fa:hover {
+    top: 10px;
+    transition: top 200ms linear;
+}
+
+.fa-facebook-square {
+color: rgb(78, 78, 219);
+}
+
+.fa-twitter-square {
+    color:  #138dff;
+    }
+
+.fa-google-plus-square {
+        color: rgb(201, 47, 47);
+        }
+
+/* .hedge-text ::before {
+    left: -30px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    background: #686869;
+    width: 20px;
+}
+.hedge-text ::after {
+right: -30px;
+content: '';
+position: absolute;
+top: 50%;
+height: 2px;
+background: #686869;
+width: 20px;
+} */
+
+
